@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/flashcard_question"
+        android:background="#FFFF33"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:text="What is my name?"
+        android:gravity="center"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/flashcard_answer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:background="#008000"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="221dp"
+        android:gravity="center"
+        android:text="Ben"
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/Choice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="177dp"
+        android:background="#D3D3D3"
+        android:gravity="center"
+        android:text="Daniel"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/CorrectChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="128dp"
+        android:background="#D3D3D3"
+        android:gravity="center"
+        android:lineSpacingExtra="44sp"
+        android:text="Ben"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/LastChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="73dp"
+        android:background="#D3D3D3"
+        android:gravity="center"
+        android:text="George"
+        android:textSize="20sp" />
+
+</RelativeLayout>
