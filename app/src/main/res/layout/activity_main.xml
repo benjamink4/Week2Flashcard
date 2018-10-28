@@ -51,7 +51,8 @@
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="Daniel"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:visibility="gone" />
 
     <TextView
         android:id="@+id/CorrectChoice"
@@ -64,7 +65,8 @@
         android:gravity="center"
         android:lineSpacingExtra="44sp"
         android:text="Ben"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:visibility="gone" />
 
     <TextView
         android:id="@+id/LastChoice"
@@ -76,6 +78,18 @@
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="George"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="11dp"
+        app:srcCompat="@drawable/ic_plus" />
+
 
 </RelativeLayout>
