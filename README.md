@@ -1,11 +1,11 @@
 ## Lab 3
 
 ### App Description
-`TODO://` Add app description
+
 
 ### App Walk-though
 
-<img src="" width=200><br>
+<img src="https://i.imgur.com/Jx8KZms.gif" width=200><br>
 
 
 ## Required
