@@ -17,13 +17,12 @@
 
     <TextView
         android:id="@+id/flashcard_question"
-        android:background="#FFFF33"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="49dp"
-        android:text="What is my name?"
+        android:background="#FFFF33"
         android:gravity="center"
         android:textSize="40sp" />
 
@@ -32,12 +31,11 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_alignParentBottom="true"
-        android:background="#008000"
-
         android:layout_centerHorizontal="true"
+
         android:layout_marginBottom="221dp"
+        android:background="#008000"
         android:gravity="center"
-        android:text="Ben"
         android:textSize="40sp"
         android:visibility="invisible" />
 
@@ -47,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="177dp"
+        android:layout_marginBottom="231dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="Daniel"
@@ -60,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="128dp"
+        android:layout_marginBottom="168dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:lineSpacingExtra="44sp"
@@ -72,9 +70,8 @@
         android:id="@+id/LastChoice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/plus"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="73dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="George"
@@ -83,13 +80,42 @@
 
     <ImageView
         android:id="@+id/plus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="58dp"
+        android:layout_height="73dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="14dp"
-        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="31dp"
+        android:layout_marginEnd="40dp"
         app:srcCompat="@drawable/ic_plus" />
+
+    <ImageView
+        android:id="@+id/edit"
+        android:layout_width="62dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/plus"
+        android:layout_marginStart="16dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_iconmonstr_pencil_9" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="62dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+
+        app:srcCompat="@drawable/ic_iconmonstr_arrow_24" />
+
+    <ImageView
+        android:id="@+id/Delete"
+        android:layout_width="91dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/next"
+        android:layout_marginEnd="128dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_iconmonstr_trash_can_2" />
 
 
 </RelativeLayout>
